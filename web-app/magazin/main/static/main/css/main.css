@@ -1,0 +1,154 @@
+body {
+background : rgb(24,24,24,24);
+}
+
+a { text-decoration: none; }
+
+.# {
+width 200px;
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width:15%;
+    padding: 1.2%;
+    height: 100vh;
+    color: white;
+    border-right: 1px solid #eb5959;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 18px;
+    color: #eb5959;
+}
+
+aside h3 {
+    margin-top:50px;
+    font-size:30px;
+}
+
+aside ul {
+    list-style: none
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    text-decoration-color: white;
+    margin-top: 20px;
+    transition:transform .5s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.20);
+}
+
+main .features {
+    float: left;
+    color:#fff;
+    margin-top:100px;
+    text-align:center;
+    width:75%;
+}
+
+main .features h1 {font-size:50px;}
+main .features p {max-width: 500px; margin: 20px auto}
+
+.features_news h1{
+text-align:center;
+color:white;
+padding-top:15px;
+}
+
+.alert-warning {
+    float: centre;
+    width: 900px;
+    margin: 20px 34%;
+    text-align: center;
+}
+
+form {
+    margin-left:32%;
+    width:500px;
+    margin-top: 50px;
+}
+
+.perv-lin  {
+  padding-top:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.vtor-lin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.product-card {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color:white;
+}
+
+.product-card .price {
+  margin-top: 5px;
+  font-weight: bold;
+  color:white;
+}
+
+.product-card .buy-btn {
+  display: inline-block;
+  padding: 7px 118px;
+  background-color: #0066cc;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.product-card .buy-btn:hover {
+  background-color: #004b8f;
+}
+
+
+
+.btn-info{
+margin-left:342px;
+    float: centre;
+    width: 900px;
+    text-align: center;
+}
+

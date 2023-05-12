@@ -1,0 +1,53 @@
+{% extends 'main/layout.html' %}
+{% block title %} Главная страница {% endblock %}
+{% load static %}
+
+{% block content %}
+    <div class="features_news">
+        <h1>Главная страница</h1>
+    </div>
+<div class ="perv-lin">
+    <div class="product-card">
+      <img src="{% static 'main/img/30032351b.jpg' %}" alt="Product 1">
+      <h3>Product 1</h3>
+      <p class="price">$10</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="{% static 'main/img/30042214b.jpg' %}" alt="Product 2">
+      <h3>Product 2</h3>
+      <p class="price">$20</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="{% static 'main/img/30044867b.jpg' %}" alt="Product 3">
+      <h3>Product 3</h3>
+      <p class="price">$30</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+</div>
+<div class ="vtor-lin">
+    <div class="product-card">
+      <img src="{% static 'main/img/samsung.jpg' %}" alt="Product 4">
+      <h3>Product 4</h3>
+      <p class="price">$40</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="{% static 'main/img/samsung.jpg' %}" alt="Product 5">
+      <h3>Product 5</h3>
+      <p class="price">$50</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+
+    <div class="product-card">
+      <img src="{% static 'main/img/xiaomi.jpg' %}" alt="Product 6">
+      <h3>Product 6</h3>
+      <p class="price">$60</p>
+      <a href="#" class="buy-btn">Buy now</a>
+    </div>
+</div>
+{% endblock %}
